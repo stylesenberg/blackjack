@@ -1,8 +1,6 @@
-#btn_start_function {
+#btn_start_function,
+#btn_hit_function,
+#btn_stand_function {
 	display: block;
 	margin: 20px auto;
-}
-
-canvas {
-	margin: 20px;
 }
