@@ -165,9 +165,9 @@ function compareBothHands() {
 
 function startNewGame() {
     console.log("Number of cards in the current deck: " + deck.length);
-    dealInitialCards();
 
     if (deck.length > 20) {
+        dealInitialCards();
 
     } else {
         shuffleNewDeck()
